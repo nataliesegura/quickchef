@@ -7,3 +7,6 @@
 - Recipe cards
 - Pagination
 - Festive styling
+
+# Deployed site:
+https://nataliesegura.github.io/quickchef/
