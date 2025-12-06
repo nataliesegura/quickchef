@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quickchef/static/css/main.32a4869c.css",
+    "main.js": "/quickchef/static/js/main.fe2d729f.js",
+    "static/js/453.a42577b1.chunk.js": "/quickchef/static/js/453.a42577b1.chunk.js",
+    "index.html": "/quickchef/index.html",
+    "main.32a4869c.css.map": "/quickchef/static/css/main.32a4869c.css.map",
+    "main.fe2d729f.js.map": "/quickchef/static/js/main.fe2d729f.js.map",
+    "453.a42577b1.chunk.js.map": "/quickchef/static/js/453.a42577b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32a4869c.css",
+    "static/js/main.fe2d729f.js"
+  ]
+}
