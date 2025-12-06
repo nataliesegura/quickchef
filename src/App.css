@@ -1,0 +1,157 @@
+:root {
+    --header: rgb(214, 211, 255);
+    --button: rgb(180, 227, 255);
+    --background: rgb(255, 183, 231);
+    --bordercolor: rgb(129, 209, 255);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Courier, monospace;
+    margin: 0;
+}
+
+body {
+  background-color: var(--background);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+  background-image: url('https://www.pngmart.com/files/3/Snowflakes-PNG-Transparent-Image.png');
+}
+
+/* the quickchef at top */
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.headersentence {
+  font-size: 18px;
+}
+
+/* the header area */
+.headerSection {
+  background-color: var(--header);
+  padding: 40px;
+}
+
+/* cute bows at the top */
+.bow {
+  position: absolute;
+  width: 180px;
+  height: auto;
+}
+
+/* the left bow */
+.left-bow {
+  top: 20px;
+  left: 20px;
+}
+
+/* the right bow */
+.right-bow {
+  top: 20px;
+  right: 20px;
+}
+
+/* typing field */
+.headerSection input {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  color: black;
+}
+
+/* search button */
+.searchButton {
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: var(--button);
+  color: black;
+  border-color: var(--bordercolor);
+}
+
+.searchButton:hover {
+  background-color: white;
+}
+
+.clear-button {
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+  background-color: var(--button);
+  color: black;
+  border-color: var(--bordercolor);
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: white;
+}
+
+/* the "christmas favorites:" */
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+/* the whole recipes area */
+.recipe-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 30px;
+}
+
+/* the individual recipe cards */
+.recipe-card {
+  background-color: white;
+  border: 2px solid var(--bordercolor);
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(122, 122, 122, 0.1);
+}
+
+.recipe-card img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 200px; 
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.recipe-card a {
+  color: #c72cee;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.recipe-card a:hover {
+  text-decoration: underline;
+}
+
+/* pages part */
+.pagesfooter {
+  cursor: pointer;
+  background-color: var(--button);
+  border-color: var(--bordercolor);
+  color: black;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 5px;
+}
+
+.pagesfooter:hover {
+  background-color: white;
+}
